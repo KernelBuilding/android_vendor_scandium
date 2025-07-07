@@ -16,7 +16,7 @@
 # -----------------------------------------------------------------
 # ScandiumOS OTA update package
 
-SCANDIUM_TARGET_PACKAGE := $(PRODUCT_OUT)/ScandiumOS-$(SCANDIUM_VERSION).zip
+SCANDIUM_TARGET_PACKAGE := $(PRODUCT_OUT)/ScandiumOS-$(SCANDIUM_VERSION)-$(SCANDIUM_CODENAME).zip
 
 MD5 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/md5sum
 SHA256 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/sha256sum
