@@ -79,7 +79,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
   ro.scandium.buildtype=$(SCANDIUM_BUILD_TYPE) \
   ro.scandium.fingerprint=$(SCANDIUM_FINGERPRINT) \
   ro.scandium.device=$(SCANDIUM_BUILD) \
-  org.scandium.version=$(SCANDIUMVERSION)
+  org.scandium.version=$(SCANDIUMVERSION) \
+  org.scandium.codename=$(SCANDIUM_CODENAME)
 
 ifdef SCANDIUM_MAINTAINER
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
